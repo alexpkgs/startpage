@@ -24,7 +24,7 @@ body {
 #search-button {
     padding: 10px 20px;
     margin-left: 10px;
-    border: 1px solid #fff; /* White border for consistency */
+    border: 1px solid #000; /* White border for consistency */
     background-color: #000;
     color: #fff;
     border-radius: 0;
@@ -32,5 +32,5 @@ body {
 }
 
 #search-button:hover {
-    background-color: #333; /* Slightly lighter black for hover effect */
+    background-color: #fff; /* Slightly lighter black for hover effect */
 }
