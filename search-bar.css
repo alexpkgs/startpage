@@ -1,5 +1,5 @@
 body {
-    font-family: Fira Code, Fira Code;
+    font-family: 'Fira Code', monospace;
 }
 
 .search-container {
@@ -13,10 +13,10 @@ body {
 
 #search-input {
     padding: 10px;
-    border: 1px solid #000;
+    border: 1px solid #fff; /* White border for contrast */
     background-color: #000;
     color: #fff;
-    border-radius: 0px;
+    border-radius: 0;
     width: 300px;
     box-sizing: border-box;
 }
@@ -24,14 +24,13 @@ body {
 #search-button {
     padding: 10px 20px;
     margin-left: 10px;
-    border: none;
-    color: #fff;
-    border-radius: 0px;
+    border: 1px solid #fff; /* White border for consistency */
     background-color: #000;
-    color: white;
+    color: #fff;
+    border-radius: 0;
     cursor: pointer;
 }
 
 #search-button:hover {
-    background-color: #000;
+    background-color: #333; /* Slightly lighter black for hover effect */
 }
