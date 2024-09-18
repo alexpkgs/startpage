@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Cartograph CF', Cartograph CF; /* Changed font */
+    font-family: 'Cartograph CF', Cartograph CF; /* Updated font */
     background-color: #F0EDEC; /* Light mode background */
     color: #685c56; /* Light mode text color */
     display: flex;
@@ -15,12 +15,11 @@ body {
     height: 100vh;
 }
 
-/* Container styles */
 .container {
     text-align: center;
-    background-color: #F0EDEC; /* Light mode container background */
+    background-color: #FFFFFF; /* Light container background */
     padding: 20px;
-    border-radius: 0px;
+    border-radius: 8px; /* Slightly rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     width: 100%;
@@ -31,7 +30,7 @@ header {
 }
 
 .ascii-art {
-    font-family: 'Cartograph CF'; /* Changed font */
+    font-family: 'Cartograph CF'; /* Updated font */
     white-space: pre;
     margin-bottom: 20px;
     color: #685c56; /* Light mode ASCII art color */
@@ -49,7 +48,7 @@ h1 {
 
 .link {
     display: block;
-    color: #685c56; /* Light mode link color */
+    color: #286486; /* Link color */
     text-decoration: none;
     font-size: 1.2em;
     margin: 10px 0;
@@ -57,6 +56,7 @@ h1 {
 
 .link:hover {
     text-decoration: underline;
+    color: #3B8992; /* Hover color */
 }
 
 footer {
@@ -65,28 +65,3 @@ footer {
     color: #685c56; /* Light mode footer color */
 }
 
-/* Dark Mode Styles */
-body.dark-mode {
-    background-color: #F0EDEC; /* Dark mode background */
-    color: #fff; /* Dark mode text color */
-}
-
-.container.dark-mode {
-    background-color: #F0EDEC; /* Dark mode container background */
-}
-
-.ascii-art.dark-mode {
-    color: #fff; /* Dark mode ASCII art color */
-}
-
-h1.dark-mode {
-    color: #fff; /* Dark mode heading color */
-}
-
-.link.dark-mode {
-    color: #fff; /* Dark mode link color */
-}
-
-footer.dark-mode {
-    color: #fff; /* Dark mode footer color */
-}
