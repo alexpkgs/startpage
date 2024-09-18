@@ -67,12 +67,12 @@ footer {
 
 /* Dark Mode Styles */
 body.dark-mode {
-    background-color: #000; /* Dark mode background */
+    background-color: #F0EDEC; /* Dark mode background */
     color: #fff; /* Dark mode text color */
 }
 
 .container.dark-mode {
-    background-color: #000; /* Dark mode container background */
+    background-color: #F0EDEC; /* Dark mode container background */
 }
 
 .ascii-art.dark-mode {
