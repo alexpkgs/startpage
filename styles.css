@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background: #007BFF;
+    background: #252422;
     color: white;
     padding: 20px;
     text-align: center;
@@ -39,7 +39,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #007BFF;
+    color: #ffffff;
 }
 
 nav a:hover {
