@@ -1,108 +1,54 @@
-:root {
-  --bg: #F0EDEC;
-  --fg: #685c56;
-  --bg-alt: #e9e4e2;
-  --fg-alt: #948985;
-  --base0: #ffffff;
-  --base1: #f9f6f4;
-  --base2: #f0edec;
-  --base3: #e5dad9;
-  --base4: #ddd3d2;
-  --base5: #d2c6c5;
-  --base6: #bcafa9;
-  --base7: #a59995;
-  --base8: #948985;
-  --grey: var(--base4);
-  --red: #a8334c;
-  --orange: #944927;
-  --green: #597a37;
-  --teal: #35a69c;
-  --yellow: #a8623e;
-  --blue: #286486;
-  --dark-blue: #cbd9e3;
-  --magenta: #88507D;
-  --violet: #8850b4;
-  --cyan: #3B8992;
-  --dark-cyan: #2a646b;
-}
-
-/* General styles */
 body {
-  background-color: var(--bg);
-  color: var(--fg);
-font-family: 'Cartograph CF', Cartograph CF; 
+    font-family: CozetteVector, CozetteVector;
+    margin: 0;
+    padding: 0;
+    background-color: #252422;
+    color: #333;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: var(--blue);
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
 }
 
-p {
-  color: var(--fg);
+header {
+    background: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-a {
-  color: var(--cyan);
+h1 {
+    margin: 0;
 }
 
-a:hover {
-  color: var(--teal);
+nav {
+    margin: 20px 0;
 }
 
-blockquote {
-  background-color: var(--bg-alt);
-  color: var(--fg);
-  border-left: 4px solid var(--blue);
-  padding: 10px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-/* Code highlighting */
-pre, code {
-  background-color: var(--base2);
-  color: var(--fg);
-  padding: 5px;
-  border-radius: 4px;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-.comment {
-  color: var(--base8);
+nav a {
+    text-decoration: none;
+    color: #007BFF;
 }
 
-.keyword {
-  color: var(--red);
+nav a:hover {
+    text-decoration: underline;
 }
 
-.function {
-  color: var(--orange);
-}
-
-.string {
-  color: var(--green);
-}
-
-.number {
-  color: var(--magenta);
-}
-
-.error {
-  color: var(--red);
-}
-
-.success {
-  color: var(--green);
-}
-
-.warning {
-  color: var(--yellow);
-}
-
-/* Additional styles */
-.highlight {
-  background-color: var(--blue);
-  color: var(--bg);
-}
-
-.selection {
-  background-color: var(--dark-blue);
-  color: var(--fg);
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
 }
