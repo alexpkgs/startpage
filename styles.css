@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #252422;
-    color: #333;
+    color: #f0f0f0; /* Change to lighter color for better contrast */
 }
 
 .container {
@@ -23,26 +23,53 @@ h1 {
     margin: 0;
 }
 
-nav {
+.search-container {
     margin: 20px 0;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+#search-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #f0f0f0;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+#search-input::placeholder {
+    color: #aaa; /* Placeholder text color */
 }
 
-nav a {
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.link {
+    display: inline-block;
+    margin: 0 10px;
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffff; /* Matches footer link color */
+    transition: color 0.3s;
 }
 
-nav a:hover {
+.link:hover {
+    color: #007BFF; /* Change link color on hover */
     text-decoration: underline;
 }
 
