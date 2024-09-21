@@ -1,12 +1,12 @@
-<body>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>startpage</title>
+    <title>Main Page</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="search-bar.css">
-      <script src="search.js"></script>
+    <script src="search.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -22,20 +22,21 @@
             </pre>
         </header>
         <main>
+            <section class="search-container">
+                <form action="https://www.duckduckgo.com/" method="get">
+                    <input type="text" id="search-input" name="q" placeholder="Look Up">
+                    <button type="submit">Search</button>
+                </form>
+            </section>
             <section class="links">
-              <div class="search-container">
-        <form action="https://www.duckduckgo.com/" method="get">
-            <input type="text" id="search-input" name="q" placeholder="                               Look Up">
-            
-                <a href="https://discord.com" class="link" target="_blank">discord</a>
-                <a href="https://git.gay" class="link" target="_blank">git.gay</a>
-                <a href="https://www.reddit.com" class="link" target="_blank">reddit</a>
-                <a href="https://odysee.com/" class="link" target="_blank">odysee               
+                <a href="https://discord.com" class="link" target="_blank">Discord</a>
+                <a href="https://git.gay" class="link" target="_blank">Git.gay</a>
+                <a href="https://www.reddit.com" class="link" target="_blank">Reddit</a>
+                <a href="https://odysee.com/" class="link" target="_blank">Odysee</a>
             </section>
         </main>
         <footer>
-       
-      <a href="https://git.gay/alexpkgs/startpage" class="link" target="_blank">source code</a>  
+            <a href="https://git.gay/alexpkgs/startpage" class="link" target="_blank">Source Code</a>  
         </footer>
     </div>
 </body>
